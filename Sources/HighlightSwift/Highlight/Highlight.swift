@@ -98,4 +98,8 @@ public final class Highlight: Sendable {
         return try AttributedString(attributedString, including: \.uiKit)
 #endif
     }
+    
+    /// Creates a highlight instance.
+    public init() {}
+    
 }
